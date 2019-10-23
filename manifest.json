@@ -31,13 +31,21 @@
               "type": "string"
             },
             "targetCountries": {
-              "default": [],
               "title": "Target Countries",
-              "type": "array",
-              "items": {
-                "title": "Country Code",
-                "type": "string"
-              }
+              "oneOf": [
+                {
+                  "type": "array",
+                  "title": "Countries code list",
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1
+                },
+                {
+                  "type": "null",
+                  "title": "None"
+                }
+              ]
             }
           }
         }
