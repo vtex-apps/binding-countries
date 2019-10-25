@@ -1,16 +1,14 @@
 {
   "name": "binding-countries",
   "vendor": "vtex",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "title": "Binding Countries",
   "description": "Binding Countries",
   "dependencies": {
     "vtex.render-server": "8.x"
   },
-  "builders": {
-  },
-  "scripts": {
-  },
+  "builders": {},
+  "scripts": {},
   "credentialType": "absolute",
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema",
   "settingsSchema": {
