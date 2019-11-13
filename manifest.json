@@ -7,7 +7,9 @@
   "dependencies": {
     "vtex.render-server": "8.x"
   },
-  "builders": {},
+  "builders": {
+    "docs": "0.x"
+  },
   "scripts": {},
   "credentialType": "absolute",
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema",
