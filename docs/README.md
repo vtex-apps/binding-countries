@@ -10,19 +10,19 @@ Example:
 {
   "bindings": [
     {
-      "canonicalBaseAdress": "www.store.com/ar",
+      "canonicalBaseAddress": "www.store.com/ar",
       "targetCountries": ["AR"]
     },
     {
-      "canonicalBaseAdress": "www.store.com/br",
+      "canonicalBaseAddress": "www.store.com/br",
       "targetCountries": ["BR", "*"]
     },
     {
-      "canonicalBaseAdress": "www.store.com/co",
+      "canonicalBaseAddress": "www.store.com/co",
       "targetCountries": ["CO", "CH", "PY", "UY"]
     },
     {
-      "canonicalBaseAdress": "www.store.com",
+      "canonicalBaseAddress": "www.store.com",
       "targetCountries": null
     }
   ]
