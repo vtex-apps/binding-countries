@@ -25,7 +25,7 @@
           "default": [],
           "type": "object",
           "properties": {
-            "canonicalBaseAdress": {
+            "canonicalBaseAddress": {
               "title": "Canonical Base Address",
               "type": "string"
             },
